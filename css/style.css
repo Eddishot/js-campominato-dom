@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(50, 87, 87);
+}
+
+.nav-bar{
+    display: flex;
+    margin: auto;
+    background-color: white;
+    justify-content: space-between;
+    width: 80%;
+
+}
+    
+.left, .right{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+#btn:hover{
+    color: white;
+    background-color: tomato;
+}
+
+
+.container{
+    background-color: aquamarine;
+
+    width: 1000px;
+    height: 700px;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    box-shadow: violet;
+}
+
+
+.square{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+}
+
+.active{
+    background-color: burlywood;
+    color: white;
+
+}
