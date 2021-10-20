@@ -50,7 +50,12 @@ body{
 }
 
 .active{
-    background-color: burlywood;
+    background-color: blue;
     color: white;
 
+}
+
+
+.red-bomb{
+    background-color: red;
 }

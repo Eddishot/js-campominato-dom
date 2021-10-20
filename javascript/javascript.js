@@ -86,4 +86,35 @@ function generateGrid(numCell){
 
 function clickCell(){
     this.classList.toggle("active")
+
+    let numeroCella = parseInt(this.textContent)
+
+    if (arrayBombe.includes(numeroCella)){
+        this.classList.add("red-bomb");
+    }
+}
+
+
+
+
+// creo la funzione per le bombe
+
+function  numBombs(numeroCelle , numeroBombe){
+    // creo una costante per l´array
+    const arraybombe = [];
+    // creo un ciclo per generare la posizione random delle bombe
+    while ( arraybombe.lenght < numeroBombe){
+        // creo una costante bomba
+        const bomb = Math.ceil(Math.random() * numeroCelle);
+
+
+        if (!arraybombe.includes(bomb)){
+
+            arraybombe.push(bomb);
+        }
+
+    }
+
+    
+
 }
