@@ -6,6 +6,8 @@ const container = document.querySelector(".container");
 const selectDifficulty = document.getElementById("select-difficulty");
 const buttonPlay = document.getElementById("btn");
 
+let bombs
+
 // creo un eventslistener per scegliere la difficoltà sul button
 
 selectDifficulty.addEventListener("click", function(){
